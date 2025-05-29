@@ -117,7 +117,7 @@ function HomePage() {
     >
       {/* Navbar */}
       <nav className="navbar">
-        <div className="logo">Rojasree</div>
+        {/* <div className="logo">Rojasree</div> */}
         <div
           className={`hamburger ${menuOpen ? "active" : ""}`}
           onClick={() => setMenuOpen(!menuOpen)}
@@ -153,7 +153,7 @@ function HomePage() {
           Hi, I'm <span className="name">Rojasree</span>
         </h1>
         <h2>
-          I'm a{" "}
+           A{" "}
           <span className="typewriter">
             <Typewriter
               words={["Full Stack Developer"]}
@@ -210,7 +210,7 @@ function HomePage() {
           <li>
             <strong>Pre-University Course </strong>
             <pre> Rajiv Gandhi University of Knowledge Technologies. (2020 - 2022)</pre>
-            <pre><strong>CGPA:8.98</strong> </pre>
+            <pre><strong>CGPA:9.32</strong> </pre>
           </li>
           <li>
             <strong>Secondary Board of Education</strong>
@@ -301,15 +301,13 @@ function HomePage() {
             <a href="mailto:rojii3824@gmail.com" className="contact-link" target="_blank" rel="noreferrer">
             📧 rojii3824@gmail.com
             </a>
-            <a href="https://www.linkedin.com/in/rojasree" className="contact-link" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/thota-rojasree-8b15b3280" className="contact-link" target="_blank" rel="noreferrer">
             💼 LinkedIn
             </a>
-            <a href="https://github.com/rojasree" className="contact-link" target="_blank" rel="noreferrer">
+            <a href="https://github.com/thota-rojasree-19" className="contact-link" target="_blank" rel="noreferrer">
             🐙 GitHub
             </a>
-            <a href="tel:+919676493824" className="contact-link">
-            📱 +91 9676493824
-            </a>
+           
         </div>
         </section>
 

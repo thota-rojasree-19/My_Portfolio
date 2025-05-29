@@ -1,0 +1,52 @@
+:root {
+    --color-bg: #0f172a;        /* dark navy background */
+    --color-text: #e0e6f5;      /* soft light text */
+    --color-accent: #ff3c78;    /* bright pink/red accent */
+    --color-highlight: #ff5470; /* slightly lighter pink */
+  }
+  
+  .about-container {
+    background-color: var(--color-bg);
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--color-text);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 60, 120, 0.3);
+  }
+  
+  .section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--color-accent);
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    margin-bottom: 1.4rem;
+    color: #cbd5e1;
+    text-align: justify;
+  }
+  
+  .highlight {
+    color: var(--color-highlight);
+    font-weight: 600;
+  }
+  
+  @media (max-width: 600px) {
+    .about-container {
+      padding: 3rem 1.5rem;
+    }
+    .section-title {
+      font-size: 2.2rem;
+    }
+    .about-content p {
+      font-size: 1rem;
+    }
+  }
+  

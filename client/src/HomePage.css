@@ -1272,7 +1272,7 @@
 
 
 
-/* 
+
 .profile-photo {
   width: 180px;
   max-width: 100%;
@@ -1318,47 +1318,6 @@
 @media (max-width: 480px) {
   .profile-photo {
     width: 110px;
-    margin-top: 0.8rem;
-  }
-} */
-
-
-
-
-
-
-.profile-photo {
-  width: 220px;
-  max-width: 90%;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 30% / 20%; /* Makes oval shape */
-  display: block;
-  margin: 1.5rem auto 0;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-}
-
-.profile-photo:hover {
-  transform: scale(1.03);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
-}
-
-/* Responsive for tablets */
-@media (max-width: 768px) {
-  .profile-photo {
-    width: 180px;
-    height: 210px;
-    margin-top: 1rem;
-  }
-}
-
-/* Responsive for phones */
-@media (max-width: 480px) {
-  .profile-photo {
-    width: 140px;
-    height: 170px;
     margin-top: 0.8rem;
   }
 }

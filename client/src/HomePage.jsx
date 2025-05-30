@@ -115,38 +115,6 @@ function HomePage() {
       animate={{ opacity: 1 }}
       transition={{ duration: 1.2 }}
     >
-      {/* Navbar */}
-      {/* <nav className="navbar">
-         <div className="logo">Rojasree</div>
-        <div
-          className={`hamburger ${menuOpen ? "active" : ""}`}
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
-          role="button"
-          tabIndex={0}
-          onKeyPress={(e) => {
-            if (e.key === "Enter") setMenuOpen(!menuOpen);
-          }}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
-          {sections.map((section) => (
-            <li key={section}>
-              <a
-                href={`#${section}`}
-                className={active === section ? "active" : ""}
-                onClick={() => handleLinkClick(section)}
-              >
-                {section.charAt(0).toUpperCase() + section.slice(1)}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav> */}
-
 
 <nav className="navbar">
   {/* Logo (Optional) */}
@@ -269,7 +237,7 @@ function HomePage() {
           <li>
             <strong>Pre-University Course </strong>
             <pre> Rajiv Gandhi University of Knowledge Technologies. (2020 - 2022)</pre>
-            <pre><strong>CGPA:9.32</strong> </pre>
+            <pre><strong>CGPA:8.98</strong> </pre>
           </li>
           <li>
             <strong>Secondary Board of Education</strong>

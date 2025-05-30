@@ -195,11 +195,18 @@ function HomePage() {
           Welcome to my portfolio website. Here you'll find my projects, skills,
           and how to contact me.
         </p>
+
+        {/* <img src="roja.jpeg" className="profile-photo"></img>
         <a href="#contact" className="btn-primary">
           Let's Connect
-        </a>
+        </a> */}
+        <div className="profile-container">
+          <img src="roja.jpeg" className="profile-photo" />
+          <a href="#contact" className="btn-primary">Let's Connect</a>
+        </div>
 
-        <img src="roja.jpeg" className="profile-photo"></img>
+
+      
       </section>
 
       {/* About Section */}
@@ -292,14 +299,8 @@ function HomePage() {
                 <span key={i} className="tech-icon">{icon}</span>
               ))}</div>
               <div className="project-links">
-                <a href={github} target="_blank" rel="noreferrer" className="btn-secondary">
-                  GitHub
-                </a>
-                {demo && (
-                  <a href={demo} target="_blank" rel="noreferrer" className="btn-secondary">
-                    Demo
-                  </a>
-                )}
+                
+                
               </div>
             </motion.div>
           ))}

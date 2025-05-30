@@ -116,8 +116,8 @@ function HomePage() {
       transition={{ duration: 1.2 }}
     >
       {/* Navbar */}
-      <nav className="navbar">
-        {/* <div className="logo">Rojasree</div> */}
+      {/* <nav className="navbar">
+         <div className="logo">Rojasree</div>
         <div
           className={`hamburger ${menuOpen ? "active" : ""}`}
           onClick={() => setMenuOpen(!menuOpen)}
@@ -145,7 +145,64 @@ function HomePage() {
             </li>
           ))}
         </ul>
-      </nav>
+      </nav> */}
+
+
+<nav className="navbar">
+  {/* Logo (Optional) */}
+  {/* <div className="logo">Rojasree</div> */}
+
+  {/* Hamburger Menu */}
+  <div
+    className={`hamburger ${menuOpen ? "active" : ""}`}
+    onClick={() => setMenuOpen(!menuOpen)}
+    aria-label="Toggle menu"
+    role="button"
+    tabIndex={0}
+    onKeyPress={(e) => {
+      if (e.key === "Enter") setMenuOpen(!menuOpen);
+    }}
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  {/* Desktop Nav */}
+  <ul className="nav-links">
+    {sections.map((section) => (
+      <li key={section}>
+        <a
+          href={`#${section}`}
+          className={active === section ? "active" : ""}
+          onClick={() => handleLinkClick(section)}
+        >
+          {section.charAt(0).toUpperCase() + section.slice(1)}
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  {/* Mobile Nav */}
+  <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
+    {sections.map((section) => (
+      <a
+        key={section}
+        href={`#${section}`}
+        className={active === section ? "active" : ""}
+        onClick={() => {
+          handleLinkClick(section);
+          setMenuOpen(false); // close menu after click
+        }}
+      >
+        {section.charAt(0).toUpperCase() + section.slice(1)}
+      </a>
+    ))}
+  </div>
+</nav>
+
+
+
 
       {/* Intro Section */}
       <section className="intro section">

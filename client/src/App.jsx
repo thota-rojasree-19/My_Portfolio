@@ -10,10 +10,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/My_Portfolio/">
       <Routes>
         <Route path="/" element={<HomePage/>}></Route>
-        <Route path="/about" element={<AboutMe/>}></Route>
+        
       </Routes>
     </BrowserRouter>
   )

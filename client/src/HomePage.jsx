@@ -180,20 +180,20 @@ function HomePage() {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <p>
-            Hello! I'm <span className="highlight">Rojasree</span>, a passionate{" "}
-            <strong>Full Stack Developer</strong> dedicated to crafting elegant and
-            responsive web applications that deliver seamless user experiences using MERN stack.
+            Hello! I'm <span className="highlight">Rojasree</span>,a passionate{" "}
+            <strong>Full Stack Developer</strong>dedicated to crafting elegant and
+            responsive responsive web applications that deliver seamless user experiences using MERN stack.
           </p>
           <p>
-            I specialize in <span className="highlight">JavaScript, React, Node.js</span>, and modern web technologies.
+            I specialize in<span className="highlight">JavaScript, React,Node.js</span>,and modern web technologies.
             I love turning ideas into reality by writing clean, efficient code and continuously learning new skills.
           </p>
           <p>
-            Outside of coding, I enjoy exploring innovative tech trends, contributing to open source, and constantly
+            Outside of coding,I enjoy exploring innovative tech trends,contributing to open source,and constantly
             challenging myself to grow professionally.
           </p>
           <p>
-            I love the process of bringing ideas to life through code. Whether it’s crafting interactive front-end interfaces or designing efficient backend systems, I find joy in every step of building something meaningful. I’m particularly passionate about learning new technologies, experimenting with modern UI/UX designs, and solving real-world problems with innovative solutions.
+            I love the process of bringing ideas to life through code.Whether it’s crafting interactive front-end interfaces or designing efficient backend systems,I find joy in every step of building something meaningful.I’m particularly passionate about learning new technologies,experimenting with modern UI/UX designs,and solving real-world problems with innovative solutions.
           </p>
         </div>
       </section>

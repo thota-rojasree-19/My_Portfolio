@@ -173,6 +173,8 @@ function HomePage() {
         <a href="#contact" className="btn-primary">
           Let's Connect
         </a>
+
+        <img src="roja.jpeg" className="profile-photo"></img>
       </section>
 
       {/* About Section */}
@@ -180,7 +182,7 @@ function HomePage() {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <p>
-            Hello! I'm <span className="highlight">Rojasree</span>,a passionate{" "}
+            Hello! I'm <span className="highlight"> Rojasree</span>,a passionate{" "}
             <strong>Full Stack Developer</strong>dedicated to crafting elegant and
             responsive responsive web applications that deliver seamless user experiences using MERN stack.
           </p>

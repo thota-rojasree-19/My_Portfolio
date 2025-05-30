@@ -1271,3 +1271,94 @@
 }
 
 
+
+/* 
+.profile-photo {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 1.5rem auto 0;
+  box-shadow:
+    0 0 15px 4px rgba(72, 211, 235, 0.6),
+    inset 0 0 12px 2px rgba(0, 188, 212, 0.7);
+  animation: pulseGlow 4s ease-in-out infinite;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 20px 6px rgba(72, 211, 235, 0.9),
+    inset 0 0 16px 3px rgba(0, 188, 212, 0.9);
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow:
+      0 0 15px 4px rgba(72, 211, 235, 0.6),
+      inset 0 0 12px 2px rgba(0, 188, 212, 0.7);
+  }
+  50% {
+    box-shadow:
+      0 0 25px 6px rgba(72, 211, 235, 0.9),
+      inset 0 0 18px 3px rgba(0, 188, 212, 0.9);
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-photo {
+    width: 140px;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-photo {
+    width: 110px;
+    margin-top: 0.8rem;
+  }
+} */
+
+
+
+
+
+
+.profile-photo {
+  width: 220px;
+  max-width: 90%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 30% / 20%; /* Makes oval shape */
+  display: block;
+  margin: 1.5rem auto 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.profile-photo:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* Responsive for tablets */
+@media (max-width: 768px) {
+  .profile-photo {
+    width: 180px;
+    height: 210px;
+    margin-top: 1rem;
+  }
+}
+
+/* Responsive for phones */
+@media (max-width: 480px) {
+  .profile-photo {
+    width: 140px;
+    height: 170px;
+    margin-top: 0.8rem;
+  }
+}

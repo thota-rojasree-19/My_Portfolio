@@ -209,11 +209,11 @@ function HomePage() {
           <p>
             Hello! I'm <span className="highlight"> Rojasree</span>,a passionate{" "}
             <strong>Full Stack Developer</strong>dedicated to crafting elegant and
-            responsive responsive web applications that deliver seamless user experiences using MERN stack.
+            responsive web applications that deliver seamless user experiences using MERN stack.
           </p>
           <p>
-            I specialize in<span className="highlight">JavaScript, React,Node.js</span>,and modern web technologies.
-            I love turning ideas into reality by writing clean, efficient code and continuously learning new skills.
+            I specialize in<span className="highlight">JavaScript,React,Node.js</span>,and modern web technologies.
+            I love turning ideas into reality by writing clean,efficient code and continuously learning new skills.
           </p>
           <p>
             Outside of coding,I enjoy exploring innovative tech trends,contributing to open source,and constantly
